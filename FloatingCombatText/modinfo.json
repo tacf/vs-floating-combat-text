@@ -1,0 +1,15 @@
+{
+    "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
+    "type": "Code",
+    "modid": "floatingcombattext",
+    "name": "Floating Combat Text",
+    "side": "Client",
+    "authors": [
+        "tacf"
+    ],
+    "description": "Floating Combat Text",
+    "version": "1.0.0",
+    "dependencies": {
+        "game": "1.21.0"
+    }
+}
