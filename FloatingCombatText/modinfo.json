@@ -5,10 +5,10 @@
     "name": "Floating Combat Text",
     "side": "Client",
     "authors": [
-        "tacf"
+        "OldManYells"
     ],
     "description": "Floating Combat Text",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependencies": {
         "game": "1.21.0"
     }
