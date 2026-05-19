@@ -3,19 +3,19 @@
     "Client": {
       "commandName": "Executable",
       "executablePath": "dotnet",
-      "commandLineArgs": "\"$(VINTAGE_STORY)/Vintagestory.dll\" --tracelog --addModPath \"$(ProjectDir)/bin/$(Configuration)/Mods\" --addOrigin \"$(ProjectDir)/assets\"",
+      "commandLineArgs": "\"$(VINTAGE_STORY)/Vintagestory.dll\" --tracelog --addModPath \"$(ProjectDir)/bin/$(Configuration)/Mods\"",
       "workingDirectory": "$(VINTAGE_STORY)"
     },
     "Server": {
       "commandName": "Executable",
       "executablePath": "dotnet",
-      "commandLineArgs": "\"$(VINTAGE_STORY)/VintagestoryServer.dll\" --tracelog --addModPath \"$(ProjectDir)/bin/$(Configuration)/Mods\" --addOrigin \"$(ProjectDir)/assets\"",
+      "commandLineArgs": "\"$(VINTAGE_STORY)/VintagestoryServer.dll\" --tracelog --addModPath \"$(ProjectDir)/bin/$(Configuration)/Mods\"",
       "workingDirectory": "$(VINTAGE_STORY)"
     },
     "Test Local Dev": {
       "commandName": "Executable",
       "executablePath": "dotnet",
-      "commandLineArgs": "\"$(VINTAGE_STORY)/Vintagestory.dll\" --playStyle \"preset-surviveandbuild\" --openWorld \"Dev Survival Mod\" --tracelog --addModPath \"$(ProjectDir)/bin/$(Configuration)/Mods\" --addOrigin \"$(ProjectDir)/assets\"",
+      "commandLineArgs": "\"$(VINTAGE_STORY)/Vintagestory.dll\" --playStyle \"preset-surviveandbuild\" --openWorld \"Dev Survival Mod\" --tracelog --addModPath \"$(ProjectDir)/bin/$(Configuration)/Mods\"",
       "workingDirectory": "$(VINTAGE_STORY)"
     }
   }
